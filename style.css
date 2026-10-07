@@ -1,0 +1,74 @@
+/* Global styles to match the dark theme */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #1f2937; /* Dark background from the image */
+    color: #f9fafb; /* Light text color */
+}
+
+/* --- HEADER SECTION --- */
+header {
+    display: flex;
+    justify-content: space-between; /* Pushes logo left, links right */
+    align-items: center;            /* Centers them vertically */
+    padding: 20px 75px;            /* Adds breathing room on sides */
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9fafb;
+}
+
+.links {
+    display: flex;
+    gap: 20px;                      /* Spreads out the three links nicely */
+}
+
+.links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    display: flex;
+    justify-content: space-between; /* Pushes text block left, image right */
+    align-items: center;            /* Vertically aligns them */
+    padding: 80px 75px;            /* Large spacing like the mockup */
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 500px;               /* Keeps text from stretching too wide */
+}
+
+.hero h1 {
+    font-size: 30px;
+    font-weight: extra-bold;
+    margin: 0 0 10px 0;
+}
+
+.hero p {
+    font-size: 15px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #3882f6;      /* Bright blue from the mockup */
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
