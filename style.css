@@ -72,3 +72,43 @@ header {
     height: auto;
     border-radius: 8px;
 }
+
+/* --- SECTION 2: RANDOM INFO --- */
+.random-info {
+    background-color: #ffffff;      /* White background to contrast the dark hero */
+    color: #1f2937;                 /* Dark text color for readability */
+    padding: 20px 75px;            /* Generous padding around the section */
+    text-align: center;             /* Centers the main heading */
+}
+
+.random-info h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+/* This is the flexbox container for the 4 cards */
+.cards-container {
+    display: flex;
+    justify-content: center;        /* Centers the row of cards */
+    gap: 50px;                      /* Creates nice spacing between each card */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;         /* Stacks the image on top of the text */
+    align-items: center;            /* Centers the image and text horizontally */
+    max-width: 200px;               /* Keeps the cards neat and constrained */
+}
+
+/* Styling the image placeholders to look like the blue-bordered boxes in the mockup */
+.card img {
+    object-fit: cover;              /* Keeps images from looking distorted */
+    margin-bottom: 10px;            /* Space between image and text */
+}
+
+.card p {
+    font-size: 15px;
+    color: #4b5563;                 /* Slightly softer dark text for subtext */
+}
