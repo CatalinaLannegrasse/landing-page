@@ -140,3 +140,55 @@ header {
     text-align: right;              /* Pushes the author's name to the right side */
     margin-top: 15px;
 }
+
+/* --- SECTION 4: CALL TO ACTION --- */
+.call-to-action-section {
+    background-color: #ffffff;      /* White section background */
+    padding: 50px 75px;           /* Generous spacing around the blue box */
+}
+
+.container-box {
+    background-color: #3882f6;      /* Vibrant blue banner background */
+    color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;            /* Rounded corners */
+    display: flex;
+    justify-content: space-between; /* Pushes text left, button right */
+    align-items: center;            /* Vertically centers them */
+}
+
+.container-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.container-box p {
+    font-size: 13px;
+    color: #e5e7eb;                 /* Slightly softer white text for subtext */
+    margin: 0;
+}
+
+/* Styling the button inside the blue banner */
+.container-box button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;        /* Distinct white border as seen in the mockup */
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container-box button:hover {
+    background-color: #2563eb;      /* Slight hover effect */
+}
+
+/* --- FOOTER --- */
+footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
