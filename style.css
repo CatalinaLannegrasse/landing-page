@@ -15,7 +15,7 @@ header {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #f9fafb;
 }
@@ -45,13 +45,13 @@ header {
 }
 
 .hero h1 {
-    font-size: 30px;
-    font-weight: extra-bold;
+    font-size: 48px;
+    font-weight: 900;
     margin: 0 0 10px 0;
 }
 
 .hero p {
-    font-size: 15px;
+    font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 20px;
 }
@@ -127,7 +127,7 @@ header {
 }
 
 .quote-text {
-    font-size: 30px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 300;               /* Lighter font weight for a clean look */
     margin: 0;
