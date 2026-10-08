@@ -112,3 +112,31 @@ header {
     font-size: 15px;
     color: #4b5563;                 /* Slightly softer dark text for subtext */
 }
+
+/* --- SECTION 3: QUOTE SECTION --- */
+.quote-section {
+    background-color: #e5e7eb;      /* Light grey background from the mockup */
+    color: #1f2937;                 /* Dark text color */
+    padding: 75px 150px;           /* Generous vertical padding */
+    display: flex;
+    justify-content: center;        /* Centers everything horizontally */
+}
+
+.quote-container {
+    max-width: 800px;               /* Keeps the quote text from stretching too wide across the screen */
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;               /* Lighter font weight for a clean look */
+    margin: 0;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;              /* Pushes the author's name to the right side */
+    margin-top: 15px;
+}
